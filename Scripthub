@@ -1,0 +1,75 @@
+-- made by Comphunter_user in discord
+-- i welcome u to the scriptssssss
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Scripts", "Synapse")
+local Tab = Window:NewTab("dahood")
+local Section = Tab:NewSection("da hood scripts ")
+Section:NewButton("Swagmode", "exp", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+Section:NewButton("speed tool", "tool that gives u speed", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9AmDUmRJ"))()
+end)
+Section:NewButton("nukermode", "gives u best aimlock and many more", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()  
+end)
+Section:NewButton("Nyula", "A good camlock", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nyulachan/nyula/main/nyuladhm"))()
+end)
+Section:NewButton("q tool", "q tool for some locks", function()
+    getgenv().keytoclick = "C"
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = keytoclick
+tool.Activated:connect(function()
+    local vim = game:service("VirtualInputManager")
+vim:SendKeyEvent(true, keytoclick, false, game)
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "scooby#1234";
+    Text = "join .gg/dotlock for more kids";
+
+})
+
+local player = game.Players.LocalPlayer
+
+local function connectCharacterAdded()
+    player.CharacterAdded:Connect(onCharacterAdded)
+end
+
+connectCharacterAdded()
+
+player.CharacterRemoving:Connect(function()
+    tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+end)
+Section:NewButton("keyboard", "keyboard like a cp", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+Section:NewButton("Anti lock", "they cannot lock on u ", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/diqjVcDi', true))()
+end)
+Section:NewButton("faded", "a computer da hood gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+Section:NewButton("ryzzchips", "best aimlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/MOON-GOD-SCRIPTS/main/Ryzzchips%20tool"))()
+end)
+local Tab = Window:NewTab("mmurder mystery 2")
+local Section = Tab:NewSection("mm2 scripts ")
+Section:NewButton("Nexus", "exp and more", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+end)
+Section:NewButton("Vynxu's", "exp", function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+Section:NewButton("esclipse hub", "exp for pc and mobile", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifter0507/scripts/main/mm2", true))()
+end)
+local Tab = Window:NewTab("university scripts")
+local Section = Tab:NewSection("university scripts ")
+Section:NewButton("infinite yield", "inf yield lets u like do admin commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
